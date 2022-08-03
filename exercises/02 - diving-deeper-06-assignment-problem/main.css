@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+}
+
+.main-box {
+    padding: 2px 4px 6px 8px;
+    border: 2px solid black;
+    margin: 15px 6px 9px 12px;
+    display: inline-block;
+}
+
+.main-box:first-child {
+    height: 300px;
+    width: 50%;
+    visibility: hidden;
+}
+
+.main-box:last-child:hover {
+    background-color: red;
+}
